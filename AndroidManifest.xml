@@ -109,7 +109,8 @@
         <activity-alias
             android:name="com.android.camera.VideoCamera"
             android:label="@string/video_camera_label"
-            android:targetActivity="com.android.camera.CaptureActivity">
+            android:targetActivity="com.android.camera.CaptureActivity"
+            android:visibleToInstantApps="true">
             <intent-filter>
                 <action android:name="android.media.action.VIDEO_CAMERA" />
                 <category android:name="android.intent.category.DEFAULT" />
